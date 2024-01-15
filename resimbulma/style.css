@@ -1,0 +1,50 @@
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+#form{
+    width: 60%;
+    margin-left: 20%;
+}
+#searchInput{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    border-radius: 10px ;
+    border: 1px solid gray;
+}
+.button-wrapper{
+    text-align: center;
+}
+#searchButton{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(17, 137, 17);
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+#clearButton{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: red;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    color: black;
+}
+.imagelist-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    margin: 20px;
+}
