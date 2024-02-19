@@ -1,0 +1,39 @@
+:root{
+    --green-color: #136a10;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    color: var(--green-color);
+    font-weight: bold;
+}
+.content{
+    font-size: 20px;
+}
+.speed{
+    position: absolute;
+    bottom: 20px;
+    background-color: rgba(7, 27, 0, 0.973);
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+input{
+    width: 50px;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--green-color);
+    color: #fff;
+    text-align: center;
+}
+input:focus{
+    outline: none;
+}
